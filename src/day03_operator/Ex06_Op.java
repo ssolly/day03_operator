@@ -21,9 +21,9 @@ public class Ex06_Op {
 		
 		int n1,n2,n3;
 		n1=10;
-		n2=++n1;
+		n2=++n1;					// 어떠한 연산보다 자기 자신이 우선
 		n1=10;
-		n3=n1++;
+		n3=n1++;					// 모든 연산이 끝난 다음에 자기 자신을 증가
 		System.out.println(n2);
 		System.out.println(n3);
 	}
